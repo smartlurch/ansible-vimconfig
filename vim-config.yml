@@ -57,7 +57,9 @@
         url: https://github.com/voldikss/vim-floaterm
       - name: vim-airline-themes
         url: https://github.com/vim-airline/vim-airline-themes
-
+      - name: surround
+        url: https://github.com/tpope/vim-surround
+    
     - name: Ensure .vimrc config in place
       copy:
         src: vimrc
