@@ -65,4 +65,4 @@
         src: vimrc
         dest: "{{ vimrc }}"
         backup: yes
-        mode: 0640
+        mode: 0660
