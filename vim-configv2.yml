@@ -10,11 +10,7 @@
     - name: Install required packages
       package:
         name:
-<<<<<<< HEAD
-          - vim
-=======
           - vim-enhanced
->>>>>>> main
           - git
           - powerline-fonts
           - fzf
@@ -59,22 +55,14 @@
         url: https://github.com/tpope/vim-fugitive
       - name: vim-floaterm
         url: https://github.com/voldikss/vim-floaterm
-<<<<<<< HEAD
-
-=======
       - name: vim-airline-themes
         url: https://github.com/vim-airline/vim-airline-themes
       - name: surround
         url: https://github.com/tpope/vim-surround
     
->>>>>>> main
     - name: Ensure .vimrc config in place
       copy:
         src: vimrc
         dest: "{{ vimrc }}"
         backup: yes
-<<<<<<< HEAD
-        mode: 0640
-=======
         mode: 0660
->>>>>>> main

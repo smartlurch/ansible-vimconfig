@@ -3,10 +3,19 @@ syntax on
 filetype plugin indent on
 
 colo darkblue
+<<<<<<< HEAD
 
 " Configuration vim Airline
 set laststatus=2
 
+=======
+set number
+set relativenumber
+
+" Configuration vim Airline
+set laststatus=2
+let g:airline_theme='simple'
+>>>>>>> main
 let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts=1
 
